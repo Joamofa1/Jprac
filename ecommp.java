@@ -7,22 +7,17 @@ public class ecommp {
         String country;
         float age;
 
+        // jframe object creation
         JFrame frame = new JFrame();
 
 
         // requesting country of residence
         country = JOptionPane.showInputDialog(frame, "Enter Country of residence");
 
-        System.out.println(country);
-
         // requesing age
-        
         age =  Float.parseFloat(JOptionPane.showInputDialog(frame, "Enter Age"));
-        // taking input for age
-        System.out.println(age);
 
         // checking for eligibility
-
         if (country.equals("GHANA") && age > 17) {
             System.out.println("You are eligible to vote");
         } else {
