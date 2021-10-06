@@ -15,10 +15,10 @@ int main() {
     cout << "Enter the age of Baaba: ";
     cin >> ages[0];
 
-    cout << "\nEnter the age of Efe: ";
+    cout << "Enter the age of Efe: ";
     cin >> ages[1];
 
-    cout << "\nEnter the age of Fiifi: ";
+    cout << "Enter the age of Fiifi: ";
     cin >> ages[2];
 
     /* loop to find the youngest 
